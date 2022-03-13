@@ -1,0 +1,22 @@
+Package: plda
+Type: Package
+Title: Parallelizable Markov chain Monte Carlo Algorithms for the Latent Dirichlet Allocation Model
+Version: 0.2
+Date: 2020-07-05
+Author: Clint P. George and Hani Doss
+Maintainer: Clint P. George <clint@iitgoa.ac.in>
+URL: https://github.com/clintpgeorge/plda
+Description: This package implements Grouped Gibbs, Partially Collapsed 
+    Gibbs, and Collapsed Gibbs sampling algorithms for the latent Dirichlet 
+    allocation (LDA) model.
+License: MIT
+Depends:
+    R (>= 3.2.2),
+    Rcpp (>= 0.12.2),
+    RcppArmadillo (>= 0.7.700.0.0),
+    lattice (>= 0.20-35)
+LinkingTo: 
+    Rcpp, 
+    RcppArmadillo
+RoxygenNote: 7.1.2
+SystemRequirements: C++11
