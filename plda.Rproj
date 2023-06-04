@@ -18,3 +18,5 @@ PackageInstallArgs: --no-multiarch --with-keep.source
 PackageBuildArgs: -std=c++11
 PackageBuildBinaryArgs: -std=c++11
 PackageRoxygenize: rd,collate,namespace,vignette
+
+SpellingDictionary: en_US

@@ -1,6 +1,7 @@
 Package: plda
 Type: Package
-Title: Parallelizable Markov chain Monte Carlo Algorithms for the Latent Dirichlet Allocation Model
+Title: Parallelizable Markov chain Monte Carlo Algorithms 
+    for the Latent Dirichlet Allocation Model
 Version: 0.2
 Date: 2020-07-05
 Author: Clint P. George and Hani Doss
@@ -18,5 +19,6 @@ Depends:
 LinkingTo: 
     Rcpp, 
     RcppArmadillo
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3
 SystemRequirements: C++11
+Encoding:UTF-8
